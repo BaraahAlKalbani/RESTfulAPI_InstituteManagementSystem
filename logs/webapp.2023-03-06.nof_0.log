@@ -1,0 +1,73 @@
+2023-03-06 11:34:56.253 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 7960 (C:\Users\LAP-6\Documents\Api-Projects\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\Api-Projects\System.app)
+2023-03-06 11:34:56.256 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-06 11:34:57.436 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-06 11:34:57.448 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-06 11:34:57.449 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-06 11:34:57.449 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-06 11:34:57.630 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-06 11:34:57.631 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1321 ms
+2023-03-06 11:34:58.832 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-06 11:34:58.857 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-06 11:34:58.869 INFO  c.I.System.app.Application - Started Application in 3.017 seconds (process running for 3.747)
+2023-03-06 11:34:59.015 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-06 11:34:59.015 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-06 11:34:59.016 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-06 11:35:00.275 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 311 ms
+2023-03-06 14:03:58.873 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 14472 (C:\Users\LAP-6\Documents\Api-Projects\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\Api-Projects\System.app)
+2023-03-06 14:03:58.877 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-06 14:04:00.114 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-06 14:04:00.128 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-06 14:04:00.129 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-06 14:04:00.130 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-06 14:04:00.248 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-06 14:04:00.249 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1311 ms
+2023-03-06 14:04:00.341 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teacherController': Unsatisfied dependency expressed through field 'teacherService': No qualifying bean of type 'com.InstituteManagementSystem.System.app.Services.TeacherService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-03-06 14:04:00.348 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-06 14:04:00.366 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-06 14:04:00.391 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field teacherService in com.InstituteManagementSystem.System.app.Controllers.TeacherController required a bean of type 'com.InstituteManagementSystem.System.app.Services.TeacherService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.InstituteManagementSystem.System.app.Services.TeacherService' in your configuration.
+
+2023-03-06 14:04:52.056 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 7276 (C:\Users\LAP-6\Documents\Api-Projects\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\Api-Projects\System.app)
+2023-03-06 14:04:52.060 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-06 14:04:53.111 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-06 14:04:53.121 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-06 14:04:53.122 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-06 14:04:53.122 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-06 14:04:53.237 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-06 14:04:53.237 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1132 ms
+2023-03-06 14:04:54.279 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-06 14:04:54.303 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-06 14:04:54.317 INFO  c.I.System.app.Application - Started Application in 2.596 seconds (process running for 3.188)
+2023-03-06 14:34:33.583 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 1144 (C:\Users\LAP-6\Documents\Api-Projects\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\Api-Projects\System.app)
+2023-03-06 14:34:33.585 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-06 14:34:34.649 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-06 14:34:34.658 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-06 14:34:34.660 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-06 14:34:34.660 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-06 14:34:34.769 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-06 14:34:34.770 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1145 ms
+2023-03-06 14:34:35.702 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-06 14:34:35.723 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-06 14:34:35.737 INFO  c.I.System.app.Application - Started Application in 2.492 seconds (process running for 3.07)
+2023-03-06 14:35:19.257 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.InstituteManagementSystem.System.app.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-06 14:35:19.362 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.InstituteManagementSystem.System.app.Application for test class com.InstituteManagementSystem.System.app.ApplicationTests
+2023-03-06 14:35:19.758 INFO  c.I.System.app.ApplicationTests - Starting ApplicationTests using Java 17.0.2 with PID 3596 (started by LAP-6 in C:\Users\LAP-6\Documents\Api-Projects\System.app)
+2023-03-06 14:35:19.759 INFO  c.I.System.app.ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-06 14:35:21.723 INFO  c.I.System.app.ApplicationTests - Started ApplicationTests in 2.16 seconds (process running for 3.282)
