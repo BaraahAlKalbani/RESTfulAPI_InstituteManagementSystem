@@ -28,14 +28,6 @@ public class Course {
     }
 
     /**
-     * Set the list of students enrolled in the course.
-     * @param students The list of students.
-     */
-    public void setStudents(List<Student> students) {
-        this.students = students;
-    }
-
-    /**
      * Get the ID of the course.
      * @return The ID of the course.
      */
